@@ -8,13 +8,198 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <h1>Hello!</h1>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">BIT STUDENT</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                MENU
+                <i class="fas fa-bars"></i>
+            </button>
 
+            <div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <img src="img/profile.png" alt="">
+            <h1>BIT STUDENT</h1>
+            <p class="underline">
+                <span>
+                    ______
+                </span>
+                <i class="fas fa-star"></i>
+                <span>
+                    ______
+                </span>
+            </p>
+            <p>Web Developer - Graphic Artist - User Experiance Designer</p>
+        </div>
+    </header>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2>PORTFOLIO</h2>
+            <p class="underline">
+                    <span>
+                        ______
+                    </span>
+                    <i class="fas fa-star"></i>
+                    <span>
+                        ______
+                    </span>
+                </p>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <img class="img-fluid" src="img/portfolio/cabin.png" alt="">
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <img class="img-fluid" src="img/portfolio/cake.png" alt="">
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <img class="img-fluid" src="img/portfolio/circus.png" alt="">
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <img class="img-fluid" src="img/portfolio/game.png" alt="">
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <img class="img-fluid" src="img/portfolio/safe.png" alt="">
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2>ABOUT</h2>
+            <p class="underline">
+                    <span>
+                        ______
+                    </span>
+                    <i class="fas fa-star"></i>
+                    <span>
+                        ______
+                    </span>
+                </p>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis obcaecati, commodi voluptatum molestiae
+                        facilis voluptas qui voluptatibus quia iusto! Quis nihil laborum laudantium voluptatibus sit, autem
+                        earum hic esse nisi!</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis obcaecati, commodi voluptatum molestiae
+                        facilis voluptas qui voluptatibus quia iusto! Quis nihil laborum laudantium voluptatibus sit, autem
+                        earum hic esse nisi!</p>
+                </div>
+            </div>
+            <a href="https://bgit.rs/">
+            <button>
+                <i class="fas fa-info-circle"></i> Find Out More</button>
+                </a>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>CONTACT ME</h2>
+            <p class="underline">
+                    <span>
+                        ______
+                    </span>
+                    <i class="fas fa-star"></i>
+                    <span>
+                        ______
+                    </span>
+                </p>
+            <div class="row">
+                <form>
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="email" class="form-control" id="exampleInputPassword1" placeholder="Email Address">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="phone" class="form-control" id="exampleInputPassword1" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>LOCATION</h3>
+                    <p>Centar za obrazovanje
+                        <br> BIT TECHNOLOGY
+                        <br> Nemanjina 4/I, Beograd
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h3>AROUND THE WEB</h3>
+                    <a href="https://www.facebook.com/">
+                        <button>
+                            <i class="fab fa-facebook-f"></i>
+                        </button>
+                    </a>
+                    <a href="https://plus.google.com/">
+                        <button>
+                            <i class="fab fab fa-google-plus-g"></i>
+                        </button>
+                    </a>
+                    <a href="https://twitter.com/">
+                        <button>
+                            <i class="fab fa-twitter"></i>
+                        </button>
+                    </a>
+                    <a href="https://www.linkedin.com/">
+                        <button>
+                            <i class="fab fa-linkedin-in"></i>
+                        </button>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <h3>MORE DETAILS</h3>
+                    <p>We belive that the future of Serbia firmly depends on our ability to scale the number of individuals
+                        involved in the IT sector. That is why we fonded BIT</p>
+                </div>
+            </div>
+            <p>Copyright &copy; Bit Student 2017
+                <br>
+                <span>Bit thanks to Start Bootstrap!</span>
+            </p>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>

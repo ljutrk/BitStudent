@@ -1,3 +1,152 @@
-h1 {
-    color: red;
+$greenish: #18bc9c;
+$blueish: #2c3e50;
+$formInputText: #495057;
+
+@font-face {
+    font-family: lato-bold;
+    src: url("../vendor/Lato-Bold.ttf");
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+.underline{
+    font-size: 20px;
+    position: relative;
+    top:-0.5rem;
+    span{
+        font-size: 30px;
+        position: relative;
+        top:-0.6rem;
+    }
+}
+    
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: lato-bold;
+}
+
+nav {
+    background-color: $blueish;
+
+    a {
+        color: white;
+    }
+
+    .navbar-toggler {
+        background-color: $greenish;
+        color:white;
+    }
+
+    .navbar-brand:hover{
+        color: $greenish;
+    }
+
+    .nav-link:hover {
+        color: $greenish;
+    }
+}
+@media(min-width:1200px){
+    .container{
+        width: 80%;
+    }
+}
+
+.navbar-toggler-icon {
+    background-color: $greenish;
+}
+
+header {
+    background-color: $greenish;
+    color: white;
+    text-align: center;
+    padding:5% 0;
+}
+
+.portfolio{
+    padding:5% 0;
+    text-align: center;
+    .row div {
+        margin: 2% 0;
+    }
+}
+
+.about{
+    padding:5% 0;
+    text-align: center;
+    color: white;
+    background-color: $greenish;
+    .row p{        
+        text-align: left;
+    }
+    button{
+        border: 1px solid white;
+        background-color: $greenish;
+        color: white;
+        &:hover{
+        background-color: white;
+        color: $greenish;
+        }
+    }
+    
+}
+
+.contact {
+    padding:5% 0;
+    text-align: center;
+    textarea{
+        width: 100%;
+    }
+    input{
+        width: 100%;
+    }
+    form{
+        text-align: left;
+        width: 100%;
+    }
+    .row{
+        margin: 0 auto;
+        width: 80%;
+    }
+    button{
+        border: none;
+        background-color: $greenish;
+        color: white;
+    }
+
+}
+
+footer{
+    padding:5% 0;
+    background-color: $blueish;
+    color: white;
+    text-align: center;
+    button{
+        height: 55px;
+        width: 55px;
+        background-color: $blueish;
+        color: white;
+        border-radius: 50%;
+        border: 2px solid white;
+        margin: 2%;
+        &:hover{
+            background-color: white;
+            color: $blueish;
+        }
+    }
+    i.fab {
+        font-size: 1.8rem;
+        
+      }
+    .row{
+        margin-bottom: 5%;
+    }
+    span{
+        font-size: 14px;
+        color: grey;
+    }
+    
 }

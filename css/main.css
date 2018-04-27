@@ -1,4 +1,109 @@
+@font-face {
+  font-family: lato-bold;
+  src: url("../vendor/Lato-Bold.ttf"); }
 h1 {
-  color: red; }
+  font-size: 3.5rem; }
+
+.underline {
+  font-size: 20px;
+  position: relative;
+  top: -0.5rem; }
+  .underline span {
+    font-size: 30px;
+    position: relative;
+    top: -0.6rem; }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: lato-bold; }
+
+nav {
+  background-color: #2c3e50; }
+  nav a {
+    color: white; }
+  nav .navbar-toggler {
+    background-color: #18bc9c;
+    color: white; }
+  nav .navbar-brand:hover {
+    color: #18bc9c; }
+  nav .nav-link:hover {
+    color: #18bc9c; }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 80%; } }
+.navbar-toggler-icon {
+  background-color: #18bc9c; }
+
+header {
+  background-color: #18bc9c;
+  color: white;
+  text-align: center;
+  padding: 5% 0; }
+
+.portfolio {
+  padding: 5% 0;
+  text-align: center; }
+  .portfolio .row div {
+    margin: 2% 0; }
+
+.about {
+  padding: 5% 0;
+  text-align: center;
+  color: white;
+  background-color: #18bc9c; }
+  .about .row p {
+    text-align: left; }
+  .about button {
+    border: 1px solid white;
+    background-color: #18bc9c;
+    color: white; }
+    .about button:hover {
+      background-color: white;
+      color: #18bc9c; }
+
+.contact {
+  padding: 5% 0;
+  text-align: center; }
+  .contact textarea {
+    width: 100%; }
+  .contact input {
+    width: 100%; }
+  .contact form {
+    text-align: left;
+    width: 100%; }
+  .contact .row {
+    margin: 0 auto;
+    width: 80%; }
+  .contact button {
+    border: none;
+    background-color: #18bc9c;
+    color: white; }
+
+footer {
+  padding: 5% 0;
+  background-color: #2c3e50;
+  color: white;
+  text-align: center; }
+  footer button {
+    height: 55px;
+    width: 55px;
+    background-color: #2c3e50;
+    color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 2%; }
+    footer button:hover {
+      background-color: white;
+      color: #2c3e50; }
+  footer i.fab {
+    font-size: 1.8rem; }
+  footer .row {
+    margin-bottom: 5%; }
+  footer span {
+    font-size: 14px;
+    color: grey; }
 
 /*# sourceMappingURL=main.css.map */
