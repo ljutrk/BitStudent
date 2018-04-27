@@ -1,10 +1,21 @@
 $greenish: #18bc9c;
 $blueish: #2c3e50;
-$formInputText: #495057;
 
 @font-face {
     font-family: lato-bold;
     src: url("../vendor/Lato-Bold.ttf");
+}
+
+@media(min-width:768px){
+    .container{
+        width: 70%;
+    }
+}
+
+@media(min-width:1200px){
+    .container{
+        width: 50%;
+    }
 }
 
 h1{
@@ -31,27 +42,18 @@ body {
 
 nav {
     background-color: $blueish;
-
     a {
         color: white;
     }
-
     .navbar-toggler {
         background-color: $greenish;
         color:white;
     }
-
     .navbar-brand:hover{
         color: $greenish;
     }
-
     .nav-link:hover {
         color: $greenish;
-    }
-}
-@media(min-width:1200px){
-    .container{
-        width: 80%;
     }
 }
 
@@ -79,9 +81,12 @@ header {
     text-align: center;
     color: white;
     background-color: $greenish;
-    .row p{        
-        text-align: left;
-    }
+    .row{ 
+        margin: 4% 0;
+        p{        
+            text-align: left;
+        }
+}
     button{
         border: 1px solid white;
         background-color: $greenish;
@@ -90,8 +95,7 @@ header {
         background-color: white;
         color: $greenish;
         }
-    }
-    
+    }  
 }
 
 .contact {
@@ -115,8 +119,10 @@ header {
         border: none;
         background-color: $greenish;
         color: white;
+        &:hover{
+            background-color: $blueish;
+        }
     }
-
 }
 
 footer{
@@ -135,6 +141,7 @@ footer{
         &:hover{
             background-color: white;
             color: $blueish;
+            cursor: pointer;
         }
     }
     i.fab {
