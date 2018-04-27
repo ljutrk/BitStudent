@@ -1,0 +1,20 @@
+nav {
+    background-color: $blueish;
+    a {
+        color: white;
+    }
+    .navbar-toggler {
+        background-color: $greenish;
+        color:white;
+    }
+    .navbar-brand:hover{
+        color: $greenish;
+    }
+    .nav-link:hover {
+        color: $greenish;
+    }
+}
+
+.navbar-toggler-icon {
+    background-color: $greenish;
+}

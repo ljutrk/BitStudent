@@ -1,0 +1,22 @@
+.about{
+    padding:5% 0;
+    text-align: center;
+    color: white;
+    background-color: $greenish;
+    .row{ 
+        margin: 4% 0;
+        p{        
+            text-align: left;
+        }
+}
+    button{
+        border: 1px solid white;
+        background-color: $greenish;
+        color: white;
+        &:hover{
+        background-color: white;
+        color: $greenish;
+        cursor: pointer;
+        }
+    }  
+}

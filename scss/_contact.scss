@@ -1,0 +1,26 @@
+.contact {
+    padding:5% 0;
+    text-align: center;
+    textarea{
+        width: 100%;
+    }
+    input{
+        width: 100%;
+    }
+    form{
+        text-align: left;
+        width: 100%;
+    }
+    .row{
+        margin: 0 auto;
+        width: 80%;
+    }
+    button{
+        border: none;
+        background-color: $greenish;
+        color: white;
+        &:hover{
+            background-color: $blueish;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+footer{
+    padding:5% 0;
+    background-color: $blueish;
+    color: white;
+    text-align: center;
+    button{
+        height: 55px;
+        width: 55px;
+        background-color: $blueish;
+        color: white;
+        border-radius: 50%;
+        border: 2px solid white;
+        margin: 2%;
+        &:hover{
+            background-color: white;
+            color: $blueish;
+            cursor: pointer;
+        }
+    }
+    i.fab {
+        font-size: 1.8rem;
+        
+      }
+    .row{
+        margin-bottom: 5%;
+    }
+    span{
+        font-size: 14px;
+        color: grey;
+    }
+    
+}
